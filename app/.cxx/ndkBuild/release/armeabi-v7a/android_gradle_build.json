@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "C:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\ndk\\android-ndk\\android-ndk\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/Users/A/SFML/SFML/examples/android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\ndk\\android-ndk\\android-ndk\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/Users/A/SFML/SFML/examples/android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "sfml-example-release-armeabi-v7a": {
+      "buildCommand": "D:\\Android\\ndk\\android-ndk\\android-ndk\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dC:/Users/A/SFML/SFML/examples/android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/A/SFML/SFML/examples/android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libsfml-example.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "sfml-example",
+      "files": [
+        {
+          "src": "C:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\src\\main\\jni\\game.cpp",
+          "flags": "-gcc-toolchain D:/Android/ndk/android-ndk/android-ndk/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi14 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -fno-exceptions -fno-rtti -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/cxx-stl/llvm-libc++/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/cxx-stl/llvm-libc++abi/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/android/support/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/extlibs/include -ID:/Android/ndk/android-ndk/android-ndk/build//../sources/third_party/sfml/include -IC:/Users/A/SFML/SFML/examples/android/app/src/main/jni -std\u003dc++11 -DANDROID -D__ANDROID_API__\u003d14 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot D:/Android/ndk/android-ndk/android-ndk/build//../sysroot -isystem D:/Android/ndk/android-ndk/android-ndk/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "C:\\Users\\A\\SFML\\SFML\\examples\\android\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libsfml-example.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "D:\\Android\\ndk\\android-ndk\\android-ndk\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
